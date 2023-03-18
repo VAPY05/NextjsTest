@@ -8,6 +8,7 @@ export const StyledSectionContainer = styled(({ topMargin = 0, bottomMargin = 0,
   width: 100%;
   height: auto;
   margin-left: auto;
+  padding: 20px 0px;
   margin-right: auto;
   margin-top: ${({ topMargin }) => topMargin}rem;
   margin-bottom: ${({ bottomMargin }) => bottomMargin}rem;

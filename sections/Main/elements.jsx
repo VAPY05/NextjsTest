@@ -5,7 +5,6 @@ export const StyledContainer = styled(({ height, ...props }) => <SectionContaine
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 50px;
 `;
 
 export const StyledGetStartedBtn = styled((props) => <Button {...props} variant="contained" color="main" />)`
@@ -48,4 +47,5 @@ export const StyledWrapper = styled(({...props}) => <div {...props}/>)`
 export const StyledCardContainers = styled(({...props}) => <div {...props}/>)`
   display: flex;
   flex-direction: column;
+  
 `
